@@ -1,7 +1,7 @@
 /* nav-bar */
 
 .nav-bar {
-    height: 97px;
+    height: 92px;
     background-color: black;
 }
 
@@ -37,7 +37,7 @@
     width: 145px;
     border-radius: 64px;
     justify-content: space-evenly;
-    padding-top: 13px;
+    padding-top: 15px;
     background-color: #ed1c24;
 }
 
@@ -140,10 +140,14 @@
     .nav-bar {
         justify-content: space-between;
     }
+}
 
+/* carousel */
 
-
-
+@media only screen and (max-width: 769px) {
+    .carousel img {
+        max-height: 1000px;
+    }
 }
 
 
