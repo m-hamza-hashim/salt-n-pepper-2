@@ -146,7 +146,7 @@
 
 @media only screen and (max-width: 769px) {
     .carousel img {
-        max-height: 1000px;
+        height: 105vw;
     }
 }
 
