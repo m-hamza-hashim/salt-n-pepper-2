@@ -183,7 +183,6 @@
 .brand-name {
     font-family: futurak;
     font-size: 52px;
-    font-weight: 400;
     color: white;
 }
 
@@ -258,7 +257,16 @@
 
 @media only screen and (max-width: 360px) {
     .brands {
-        height: 1275px;
+        height: 1230px;
+        padding-top: 50px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .subline {
+        font-size: 13px;
     }
 }
 
