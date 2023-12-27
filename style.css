@@ -2,6 +2,10 @@
     font-family: futurak;
     src: url(fonts/futurak.ttf);
 }
+@font-face {
+    font-family: butler;
+    src: url(fonts/butlerbold.otf);
+}
 
 /* nav-bar */
 
@@ -21,7 +25,7 @@
     color: white;
 }
 
-.arrow-border {
+.nav-bar .arrow-border {
     background-color: white;
     height: 25px;
     width: 26px;
@@ -31,11 +35,11 @@
     align-items: center;
 }
 
-.arrow-border > i {
+.nav-bar .arrow-border > i {
     color: black;
 }
 
-.order-btn {
+.nav-bar .order-btn {
     display: flex;
     height: 55px;
     font-size: 14px;
@@ -114,7 +118,7 @@
         height: 53px;
     }
 
-    .order-btn {
+    .nav-bar .order-btn {
         font-size: 12px;
         width: 112px;
         height: 40px;
@@ -122,18 +126,18 @@
         padding: 9px;
     }
 
-    .arrow-border {
+    .nav-bar .arrow-border {
         width: 21px;
         height: 20px;
         border-radius: 118px;
         margin-right: 3px;
     }
 
-    .order-btn > p {
+    .nav-bar .order-btn > p {
         order: 1;
     }
 
-    .arrow-border > i {
+    .nav-bar .arrow-border > i {
         font-size: 15px;
     }
 
@@ -152,18 +156,17 @@
 @media only screen and (max-width: 769px) {
     .carousel img {
         height: 105vw;
-        max-width: 100vw;
-        min-width: 100vw;
     }
 }
 
-/* brands */
+/* brands section */
 
 .brands {
     background-color: black;
-    height: 640px;
+    height: auto;
     color: white;
     padding-top: 75px;
+    padding-bottom: 75px;
 
 }
 
@@ -173,10 +176,8 @@
     text-align: center;
     line-height: 50px;
     letter-spacing: 0px;
-    margin-left: 7vw;
+    margin: 0 auto;
     margin-bottom: 9px;
-    padding-left: 15vw;
-    padding-right: 15vw;
     font-weight: 1;
 }
 
@@ -193,7 +194,7 @@
     font-size: 17px;
 }
 
-.row {
+.brands > .row {
     justify-content: center;
 }
 
@@ -213,6 +214,7 @@
     padding-top: 10px;
     font-size: 14px;
     margin-top: 24px;
+    margin-bottom: 40px;
 }
 
 .card-btn > a:link {
@@ -225,34 +227,6 @@
 
 .card > img {
     height: 160px;
-}
-
-@media only screen and (max-width: 769px) {
-    .brands {
-        height: 1140px;
-    }
-
-    .order-now-btn1, .order-now-btn2, .order-now-btn3 {
-        margin-bottom: 35px;
-    }
-}
-
-@media only screen and (max-width: 670px) {
-    .brands {
-        height: 1160px;
-    }
-}
-
-@media only screen and (max-width: 565px) {
-    .brands {
-        height: 1210px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .brands {
-        height: 1255px;
-    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -270,12 +244,178 @@
     }
 }
 
-@media only screen and (max-width: 979px) {
-    .heading {
-        width: 70%;
-        margin-left: 14vw;
-        padding-left: 0;
-        padding-right: 0;
+/* franchises section */
+
+.fran-sec {
+   background-color: rgb(15 15 15);
+   height: auto;
+   color: white;
+   position: relative;
+   padding-bottom: 60px;
+}
+
+.bg-img {
+    position: absolute;
+    right: 30px;
+    top: 33px;
+    height: 35vw;
+    width: 25vw;
+}
+
+.heading1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 8px;
+    font-family: butler;
+    padding-top: 69px;
+    text-align: center;
+    
+}
+
+.bg-fig {
+    margin-top: -16px;
+}
+
+
+.subline1 {
+    line-height: 19px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+
+.fran-location {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.fran span  {
+    font-family: futurak;
+}
+
+
+.fran-res {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 1;
+    margin-bottom: 26px;
+}
+
+.fran .address > p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+}
+
+.fran a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.fran .contact a:link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.fran i {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.fran .arrow-border {
+    background-color: white;
+    height: 25px;
+    width: 26px;
+    border-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fran .arrow-border > i {
+    color: red;
+}
+
+.fran .order-btn {
+    display: flex;
+    height: 55px;
+    font-size: 14px;
+    width: 155px;
+    border-radius: 100px;
+    justify-content: space-evenly;
+    padding-top: 13px;
+    background-color: rgb(15 15 15);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    margin-top: 45px;
+}
+
+.fran-sec .row {
+    justify-content: space-around;
+}
+
+.fran-img > img {
+    width: 100%;
+    height: 300px;
+}
+
+.fran2 {
+    margin-top: 35px;
+}
+
+.fran3 {
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading1 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+
+    .heading1 .brand-name, .fran-res {
+        font-size: 24px;
+        line-height: 29px;
+
+    }
+
+    .fran p {
+        text-align: center;
+    }
+
+    .fran .address p {
+        margin: 0 auto;
+    }
+
+    .fran .contact p {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .fran .order-btn {
+        margin: 30px auto;
+    }
+
+    .f2c1 {
+        order: 1;
     }
 }
+
+
+
+
+
 
