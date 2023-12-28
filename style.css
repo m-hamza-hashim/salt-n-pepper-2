@@ -319,6 +319,10 @@
 }
 
 .fran a:link {
+    text-decoration: none;
+}
+
+.fran a p {
     color: white;
     text-decoration: none;
 }
@@ -413,6 +417,130 @@
         order: 1;
     }
 }
+
+/* express franchises section */
+
+.exp-fran {
+    position: relative;
+    background-color: black;
+    height: auto;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.exp-fran > .heading1 {
+    margin-bottom: 35px;
+}
+
+.bg-fig1 {
+    margin-top: -30px;
+}
+
+.bg-img1 {
+    position: absolute;
+    left: 30px;
+    top: 33px;
+    height: 35vw;
+    width: 25vw;
+}
+
+.exp-fran-img > img {
+    height: 250px;
+    width: 100%;
+}
+
+.exp-fran .row {
+    justify-content: center;
+}
+
+.exp-fran .location {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    color: #ED1C24;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.exp-fran .res-type {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 1;
+    text-align: center;
+}
+
+.exp-fran .res {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: futurak;
+}
+
+.exp-fran .address > p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.exp-fran .contact > p {
+    text-align: center;
+}
+
+
+.exp-fran a:link {
+    text-decoration: none;
+}
+
+.exp-fran a p {
+    color: white;
+    text-decoration: none;
+}
+
+.exp-fran .contact a:link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.exp-fran i {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.exp-fran .arrow-border {
+    background-color: white;
+    height: 25px;
+    width: 26px;
+    border-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-fran .arrow-border > i {
+    color: red;
+}
+
+.exp-fran .order-btn {
+    display: flex;
+    height: 55px;
+    font-size: 14px;
+    width: 155px;
+    border-radius: 100px;
+    justify-content: space-evenly;
+    padding-top: 13px;
+    background-color: black;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    margin: 30px auto;
+}
+
+
+
+
 
 
 
