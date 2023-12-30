@@ -153,7 +153,7 @@
 
 /* carousel */
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
     .carousel img {
         height: 105vw;
     }
@@ -301,7 +301,6 @@
     font-family: futurak;
 }
 
-
 .fran-res {
     font-size: 32px;
     line-height: 38px;
@@ -371,7 +370,6 @@
 
 .fran-img > img {
     width: 100%;
-    /* height: 280px; */
     height: 20vw;
 }
 
@@ -383,7 +381,7 @@
     margin-top: 35px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .fran-img > img {
         height: 45vw;
     }
@@ -449,7 +447,6 @@
 }
 
 .exp-fran-img > img {
-    /* height: 250px; */
     height: 18vw;
     width: 100%;
 }
@@ -543,11 +540,128 @@
     margin: 30px auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .exp-fran-img > img {
         height: 45vw;
         width: 100%;
     }
+}
+
+
+/* village franchises section  */
+
+.vill-fran {
+    height: auto;
+    background-color: rgb(15,15,15);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.vill-fran .heading1 {
+    margin-bottom: 25px;
+}
+.vill-fran span  {
+    font-family: futurak;
+}
+
+.vill-fran-res {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 1;
+    margin-bottom: 26px;
+}
+
+.vill-fran .address > p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+}
+
+.vill-fran a:link {
+    text-decoration: none;
+}
+
+.vill-fran a p {
+    color: white;
+    text-decoration: none;
+}
+
+.vill-fran .contact a:link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.vill-fran i {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.vill-fran .arrow-border {
+    background-color: white;
+    height: 25px;
+    width: 26px;
+    border-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vill-fran .arrow-border > i {
+    color: rgb(40 167 69);
+}
+
+.vill-fran .order-btn {
+    display: flex;
+    height: 55px;
+    font-size: 14px;
+    width: 155px;
+    border-radius: 100px;
+    justify-content: space-evenly;
+    padding-top: 13px;
+    background-color: rgb(40 167 69);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    margin-top: 45px;
+}
+
+.vill-fran .row {
+    justify-content: center;
+}
+
+.vill-fran-img > img {
+    width: 100%;
+    height: 29vw;
+}
+
+.vill-fran .des {
+    align-self: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .vill-fran-img > img {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .vill-fran-res {
+        font-size: 22px;
+    }
+
+    .vill-fran-res, .vill-fran .contact p, .vill-fran .fran-location, .vill-fran .address p  {
+        text-align: center;
+    }
+    
+    .vill-fran .order-btn {
+        margin: 0 auto;
+    }
+
+    .vill-fran {
+        padding-bottom: 70px;
+    }
+
 }
 
 
