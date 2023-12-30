@@ -276,7 +276,6 @@
     margin-top: -16px;
 }
 
-
 .subline1 {
     line-height: 19px;
     font-size: 16px;
@@ -372,7 +371,8 @@
 
 .fran-img > img {
     width: 100%;
-    height: 300px;
+    /* height: 280px; */
+    height: 20vw;
 }
 
 .fran2 {
@@ -384,6 +384,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .fran-img > img {
+        height: 45vw;
+    }
+
     .heading1 {
         font-size: 24px;
         line-height: 30px;
@@ -445,7 +449,8 @@
 }
 
 .exp-fran-img > img {
-    height: 250px;
+    /* height: 250px; */
+    height: 18vw;
     width: 100%;
 }
 
@@ -538,6 +543,12 @@
     margin: 30px auto;
 }
 
+@media only screen and (max-width: 768px) {
+    .exp-fran-img > img {
+        height: 45vw;
+        width: 100%;
+    }
+}
 
 
 
