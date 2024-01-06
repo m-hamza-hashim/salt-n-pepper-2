@@ -676,6 +676,47 @@
 
 }
 
+/* social feed section  */
+
+.social-feed {
+    height: auto;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+
+.social-feed img {
+    width: 105%;
+}
+
+.social-feed p {
+    font-family: 'Butler';
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-feed .row {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-feed > p {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .social-feed img {
+        width: 100%;
+    
+    }
+
+    .social-feed > .row {
+        margin: 0 10px;
+    }
+}
+
 
 
 
