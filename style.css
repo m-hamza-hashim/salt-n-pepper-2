@@ -211,7 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 13px;
     font-size: 14px;
     margin-top: 24px;
     margin-bottom: 40px;
@@ -358,7 +358,7 @@
     width: 155px;
     border-radius: 100px;
     justify-content: space-evenly;
-    padding-top: 14px;
+    padding-top: 16px;
     background-color: rgb(15 15 15);
     border: 0.5px solid rgba(255, 255, 255, 0.3);
     margin-top: 45px;
@@ -538,7 +538,7 @@
     width: 155px;
     border-radius: 100px;
     justify-content: space-evenly;
-    padding-top: 14px;
+    padding-top: 16px;
     background-color: black;
     border: 0.5px solid rgba(255, 255, 255, 0.3);
     margin: 30px auto;
