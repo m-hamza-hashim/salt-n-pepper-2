@@ -710,11 +710,19 @@
 
     .social-feed img {
         width: 100%;
-    
     }
 
     .social-feed > .row {
         margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .social-feed img {
+        height: 40vw;
+        width: 75%;
+        margin: 7px 10vw;
+
     }
 }
 
