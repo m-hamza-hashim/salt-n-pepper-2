@@ -66,7 +66,7 @@
     width: 126px;
     border-radius: 64px;
     padding-left: 15px;
-    padding-top: 13px;
+    padding-top: 15px;
     font-size: 14px;
 }
 
@@ -170,7 +170,7 @@
 
 }
 
-.heading {
+.brands .heading {
     font-size: 40px;
     width: 85%;
     text-align: center;
@@ -235,7 +235,7 @@
         padding-top: 50px;
     }
 
-    .heading {
+    .brands .heading {
         font-size: 30px;
     }
 
@@ -254,7 +254,7 @@
    padding-bottom: 85px;
 }
 
-.bg-img {
+.fran-sec .bg-img {
     position: absolute;
     right: 30px;
     top: 33px;
@@ -272,7 +272,7 @@
     
 }
 
-.bg-fig {
+.fran-sec .bg-fig {
     margin-top: -16px;
 }
 
@@ -726,7 +726,103 @@
     }
 }
 
+/* footer */
+.footer {
+    background-color: rgba(15, 15, 15, 1);
+    height: auto;
+    padding-bottom: 60px;
+    position: relative;
+    padding-top: 68px;
+}
 
+.footer .row {
+    justify-content: center;
+}
+
+.footer i {
+    font-size: 18px;
+    margin: 0 7px;
+}
+
+.footer .icon-bg {
+    background-color: #ed1c24;
+    height: 41px;
+    width: 41px;
+    border-radius: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .pp-tc {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.copyright1 {
+    position: fixed;
+    left: 150px;
+    bottom: 0px;
+}
+
+.footer-breaker {
+    margin-top: 41px;
+    margin-bottom: -13px;
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.copyright2 {
+    position: fixed;
+    right: 150px;
+    bottom: 0px;
+}
+
+.footer .bg-box {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 26px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.footer .bg-img {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    height: 26vw;
+    width: 23vw;
+}
+
+.footer .bg-fig {
+    margin-top: -16px;
+}
+
+.nav-icon1 {
+    width: 131px;
+    height: 68px;
+}
+
+.footer, .footer a:link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer .heading {
+    font-family: 'Butler';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer address {
+    margin-top: 18px;
+}
 
 
 
