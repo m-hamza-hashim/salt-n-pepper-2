@@ -8,7 +8,9 @@
 }
 
 /* nav-bar */
-
+* {
+    margin: 0;
+}
 .nav-bar {
     height: 92px;
     background-color: black;
@@ -135,6 +137,7 @@
 
     .nav-bar .order-btn > p {
         order: 1;
+        margin-top: 1px;
     }
 
     .nav-bar .arrow-border > i {
